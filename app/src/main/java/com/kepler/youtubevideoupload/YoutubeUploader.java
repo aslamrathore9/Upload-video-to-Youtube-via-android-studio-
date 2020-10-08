@@ -46,19 +46,20 @@ public class YoutubeUploader {
     //From Google Developer Console from same project (Created by SHA1; project package)
     //Example https://console.developers.google.com/project/apps~gtl-android-youtube-test/apiui/credential
 //    public static final String DEVELOPER_KEY = "developer key";
-    public static final String DEVELOPER_KEY = "AIzaSyAVXStA6B8MlqvGSYT63kqJHe561xfkky4";
+    public static final String DEVELOPER_KEY = "AIzaSyD9wi67QOvrWWzxPQms-LtpVqsn3I-ZmKY";
 
     // CLIENT_ID == Google APIs Console Project Number:
 //    public static final String CLIENT_ID = "client_id";
-    public static final String CLIENT_ID = "307916533175-jdjvuejvi1q4mlmma097u5dh25ka7um5.apps.googleusercontent.com";
+//    public static final String CLIENT_ID = "638914612522-0njaojfdhf647th1gv1khj1odnai7pqb.apps.googleusercontent.com";
+    public static final String CLIENT_ID = "638914612522";
 
     public static final String YOUTUBE_AUTH_TOKEN_TYPE = "youtube";
 
     private static final String AUTH_URL = "https://www.google.com/accounts/ClientLogin";
 
     // Uploader's user-name and password
-    private static final String USER_NAME = "aslamrathore321@gmail.com";
-    private static final String PASSWORD = "rathore@24";
+    private static final String USER_NAME = "keplertesting4@gmail.com";
+    private static final String PASSWORD = "kepler442b";
 
     private static final String INITIAL_UPLOAD_URL = "https://uploads.gdata.youtube.com/resumable/feeds/api/users/default/uploads";
 
